@@ -32,6 +32,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing Surge
-         run: npm install --global surge
+         run:  surge
          - name: deploying using surge
          run: surge ./ spiky-history.surge.sh --token $ {{  secrets.SURGE_TOKEN  }}
