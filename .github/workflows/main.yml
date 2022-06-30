@@ -35,5 +35,3 @@ jobs:
          run: npm install --global surge
          name: deploying using surge
          run: surge ./ spiky-history.surge.sh --token $ {{  secrets.SURGE_TOKEN  }}
-    
-          
