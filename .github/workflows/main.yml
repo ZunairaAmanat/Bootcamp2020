@@ -28,7 +28,6 @@ jobs:
             - run:echo "setting up Node js"
             - name:setup Node Js
             uses:actions/setup-node@v1
-            with:
             node-version:12.x
             
             
